@@ -20,7 +20,7 @@ export default function Page(){
                     <div>{idade*3}</div>
 
 
-                    <button onClick={executar} className="bg-blue-500 rounded-md p-4 cursor-pointer" >Teste</button>
+                    <button onClick={executar} className="botao" >Tests</button>
                 </div>
 
         </Pagina>
