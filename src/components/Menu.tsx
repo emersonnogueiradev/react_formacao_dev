@@ -12,6 +12,9 @@ export default function Menu(){
         <div className="flex flex-col justify-start  text-3xl w-72 p-2 gap-2">
 
             <span className="text-sm text-zinc-500  pl-3 pt-4">Estado</span>
+
+            <MenuItem icone = {<MdHome/>} texto="Componente Texto" url="/estado/campotexto"/>
+
             <MenuItem icone = {<MdHome/>} texto="Componente com Estado" url="/estado/comestado"/>
 
             <MenuItem icone = {<MdHome/>} texto="Componente sem Estado" url="/estado/semestado"/>
